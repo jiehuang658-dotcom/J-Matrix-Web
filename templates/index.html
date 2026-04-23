@@ -1,0 +1,23 @@
+ root@jumpbox:~/J-Matrix-Web# <!DOCTYPE html>
+<html>
+<head>
+    <title>我的矩阵计算器</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; background-color: #f4f4f9; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        .result-box { background: #2d2d2d; color: #5ef7ab; padding: 15px; border-radius: 8px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>📊 矩阵计算结果</h1>
+        <p>状态: <strong>{{ status }}</strong></p>
+        <div class="result-box">
+            计算结果：<br>
+            {{ result }}
+        </div>
+        <p>✅ 恭喜！你的第一个全栈页面成功了。</p>
+    </div>
+</body>
+</html>
